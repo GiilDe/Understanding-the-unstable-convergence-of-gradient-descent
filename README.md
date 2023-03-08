@@ -12,7 +12,7 @@ and then the RP is defined as
 $$RP(\theta)=\frac{ f(\theta - \eta U(t)) - f(\theta) }{\eta ||U(t)||^2}$$
 and DS is defined as
 $$L(\theta, \eta U(t)) = \frac{ < U(t), U(t)-U(t+1) > }{\eta ||U(t)||^2}$$
-when using vanilla gradient descent this implementation is equivalent to using the gradient, but note that when using momentum or other methods this implementation is not the same since the update vector is not equal to the gradient. The reason for this implementation is to attempt to generalize the definitions in the paper to optimization methods other than vanilla GD, other ways may exist too, of course.
+when using vanilla gradient descent this implementation is equivalent to using the gradient, but note that when using momentum or other methods this implementation is not the same since the update vector is not equal to the gradient. The reason for this implementation is to attempt to generalize the definitions in the paper to optimization methods other than vanilla GD.
 ```python
 dataset = "cifar10-5k"
 arch = "fc-tanh"
