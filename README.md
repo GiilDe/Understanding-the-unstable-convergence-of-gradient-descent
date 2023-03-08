@@ -4,7 +4,7 @@
 Source code for the paper [Understanding the unstable convergence of gradient descent
 ](https://proceedings.mlr.press/v162/ahn22a.html) by Kwangjun Ahn, Jingzhao Zhang, Suvrit Sra. 
 The implementation is copied from https://github.com/locuslab/edge-of-stability, and only the computation of 
-"relative progress (RP)" and "directional smoothness (DS)" are added, for full instructions please visit the original repository. 
+"relative progress (RP)" and "directional smoothness (DS)" are added. For full instructions on how to run the code please visit the original repository. 
 Please note that whenever the gradient appears 
 in the formulas it is defined in this work as the update vector at step $t$, i.e the update vector is defined as
 $$U(t)=\frac {\theta ^ {t+1} - \theta ^ {t} }{\eta}$$
